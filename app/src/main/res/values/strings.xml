@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Image-DownLoader</string>
+
+    <string-array name="image_links">
+
+        <item>1340/134050.jpg</item>
+        <item>1343/134386.jpg</item>
+        <item>1335/133514.jpg</item>
+        <item>1387/138726.jpg</item>
+        <item>1431/143111.jpg</item>
+
+        <item>1343/134338.jpg</item>
+        <item>1343/134342.jpg</item>
+        <item>1343/134346.jpg</item>
+        <item>1343/134350.jpg</item>
+        <item>1517/151776.jpg</item>
+
+        <item>1338/133858.jpg</item>
+        <item>1341/134158.jpg</item>
+        <item>1478/147896.jpg</item>
+        <item>1478/147876.jpg</item>
+        <item>1479/147906.jpg</item>
+
+        <item>1339/133942.jpg</item>
+        <item>1337/133742.jpg</item>
+        <item>1336/133610.jpg</item>
+        <item>1524/152466.jpg</item>
+        <item>1387/138778.jpg</item>
+
+        <item>1342/134254.jpg</item>
+        <item>1291/129194.jpg</item>
+        <item>1336/133654.jpg</item>
+        <item>1344/134450.jpg</item>
+        <item>1517/151736.jpg</item>
+
+        <item>1526/152671.jpg</item>
+        <item>1517/151746.jpg</item>
+        <item>1338/133834.jpg</item>
+        <item>1336/133614.jpg</item>
+        <item>1524/152456.jpg</item>
+
+        <item>1555/155526.jpg</item>
+        <item>1478/147886.jpg</item>
+        <item>1527/152701.jpg</item>
+        <item>1480/148021.jpg</item>
+        <item>1525/152566.jpg</item>
+
+        <item>1387/138794.jpg</item>
+        <item>1526/152601.jpg</item>
+        <item>1338/133870.jpg</item>
+        <item>1339/133962.jpg</item>
+        <item>1524/152476.jpg</item>
+
+        <item>1387/138718.jpg</item>
+        <item>1340/134090.jpg</item>
+        <item>1491/149126.jpg</item>
+        <item>1552/155201.jpg</item>
+        <item>1339/133986.jpg</item>
+
+        <item>1490/149086.jpg</item>
+        <item>1293/129302.jpg</item>
+        <item>1453/145346.jpg</item>
+        <item>1491/149101.jpg</item>
+        <item>1552/155216.jpg</item>
+    </string-array>
+</resources>
