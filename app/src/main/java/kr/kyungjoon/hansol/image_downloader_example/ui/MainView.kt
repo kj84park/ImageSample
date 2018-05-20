@@ -1,9 +1,9 @@
 package kr.kyungjoon.hansol.image_downloader_example.ui
 
 import android.content.Context
-import io.reactivex.Observable
+import android.widget.ImageView
 
 interface MainView {
-    fun getApiService(img : String) : Observable<String>
     fun getContext() : Context
+    fun getImage(position : Int , image: ImageView?)
 }
