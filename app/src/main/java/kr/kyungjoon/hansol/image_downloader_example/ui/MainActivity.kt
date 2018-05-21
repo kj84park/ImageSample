@@ -1,6 +1,7 @@
 package kr.kyungjoon.hansol.image_downloader_example.ui
 
 import android.content.Context
+import android.content.Intent
 import android.graphics.BitmapFactory
 import android.os.Bundle
 import android.util.Base64
@@ -62,6 +63,12 @@ class MainActivity : DaggerAppCompatActivity(), MainView {
         } else {
             image?.setImageBitmap(cachedBitmap)
         }
+    }
+
+    override fun getDetailedImage(position: Int) {
+        val intent = Intent(applicationContext, DetailedActivity::class.java)
+        intent.putExtra("imageLink",imageLinks[position])
+        startActivity(intent)
     }
 
     private fun getImageLinks(): ArrayList<String> {

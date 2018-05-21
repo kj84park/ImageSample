@@ -17,7 +17,7 @@ class MainModule{
 
     @Provides
     @ActivityScope
-    public fun privideRetrofit() : GettyApiService {
+    public fun provideRetrofit() : GettyApiService {
         val okHttpClient = OkHttpClient.Builder()
                 .addInterceptor { chain ->
                     val request = chain.request().newBuilder()

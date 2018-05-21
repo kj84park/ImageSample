@@ -4,6 +4,7 @@ import android.app.Activity
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import android.widget.ImageButton
 import android.widget.ImageView
 import kr.kyungjoon.hansol.image_downloader_example.R
 
@@ -26,6 +27,13 @@ class GridViewAdapter(private val view: MainView, private val layoutResourceId: 
         }
 
         view.getImage(position,holder.image)
+
+        row?.let {
+            val button  = it.findViewById<ImageButton>(R.id.image_item)
+            button.setOnClickListener {
+                view.getDetailedImage(position)
+            }
+        }
         return row!!
     }
 

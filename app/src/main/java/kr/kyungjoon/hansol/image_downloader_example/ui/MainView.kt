@@ -6,4 +6,5 @@ import android.widget.ImageView
 interface MainView {
     fun getContext() : Context
     fun getImage(position : Int , image: ImageView?)
+    fun getDetailedImage(position : Int)
 }
