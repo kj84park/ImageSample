@@ -7,7 +7,7 @@ import android.widget.ArrayAdapter
 import android.widget.ImageView
 import kr.kyungjoon.hansol.image_downloader_example.R
 
-class GridViewAdapter(private val view: MainView, private val layoutResourceId: Int)
+class GridViewAdapter(private val view: MainView, private val layoutResourceId: Int, private val listCount : Int)
     : ArrayAdapter<String>(view.getContext(), layoutResourceId) {
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
@@ -27,6 +27,10 @@ class GridViewAdapter(private val view: MainView, private val layoutResourceId: 
 
         view.getImage(position,holder.image)
         return row!!
+    }
+
+    override fun getCount(): Int {
+        return listCount
     }
 
     internal class ViewHolder {

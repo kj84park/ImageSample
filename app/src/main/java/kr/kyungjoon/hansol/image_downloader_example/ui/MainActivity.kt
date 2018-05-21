@@ -31,7 +31,7 @@ class MainActivity : DaggerAppCompatActivity(), MainView {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val gridAdapter = GridViewAdapter(this, R.layout.grid_item_layout)
+        val gridAdapter = GridViewAdapter(this, R.layout.grid_item_layout,imageLinks.size)
         gridView.adapter = gridAdapter
     }
 
